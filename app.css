@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    top: 0;
+    position: sticky;
+}
+.page-header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 0, 0);
+}
+.page-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.page-logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+.page-menu{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-register{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.logo img{
+    width: 80px;
+}
+.name{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.name h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.page-menu ul li{
+    float: left;
+    list-style: none;
+}
+.page-menu ul li a{
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 40px 25px;
+}
+.search{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.register-login{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search input{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.register-login button{
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.register-login button:nth-child(1){
+    background-color: rgb(2, 199, 2);
+}
+.register-login button:nth-child(2){
+    background-color:rgb(0, 98, 255);
+}
+.box-container{
+    width: 68%;
+    height: 450px;
+    background-color: rgb(159, 159, 159);
+    margin: auto;
+    margin-top: 10px;
+    position: sticky;
+    z-index: -1;
+}
+.carousel-inner{
+    width: 68%;
+    height: 450px;
+    position: fixed;
+}
+.carousel-item{
+    width: 68%;
+    height: 450px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.main-container{
+    width: 90%;
+    /* background-color: rgb(159, 159, 159); */
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+.box-detail{
+    width: 355px;
+    height: 520px;
+    background-color: aqua;
+    border-style: groove;
+}
+.thumbnail{
+    width: 100%;
+    height: 65%;
+    background-color: brown;
+}
+.thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-detail{
+    width: 100%;
+    height: 35%;
+    background-color: chocolate;
+
+    padding-top: 5px;
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+.product-detail h1{
+    font-size: 18px;
+    color: white;
+}
+.product-detail p{
+    font-size: 16px;
+    color: white;
+}
+.item-detail{
+    padding-left: 10px;
+    width: 100%;
+    height: 75%;
+}
+.item-buy{
+    padding-left: 10px;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: end;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+}
+.footer-logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-address{
+    width: 50%;
+    height: 100%;
+}
+.footer-social{
+    width: 25%;
+    height: 100%;
+}
+.footer-logo img{
+    width: 120px;
+    height: 120px;
+}
+.location{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.address{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.location h1{
+    font-size: 23px;
+    color: white;
+}
+.address a{
+    text-decoration: none;
+}
+.address p{
+    font-size: 18px;
+    color: white;
+}
+.socail{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socail h1{
+    font-size: 23px;
+    color: white;
+}
+.contact-social{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.contact-social ul li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+.contact-social ul li a{
+    text-decoration: none;
+}
+.contact-social ul li a img{
+    width: 50px;
+}

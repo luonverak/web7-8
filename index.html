@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="page-header">
+            <div class="page-logo">
+                <div class="logo">
+                    <img src="image/logo.png" alt="">
+                </div>
+                <div class="name">
+                    <h1>Clothes Store</h1>
+                </div>
+            </div>
+            <div class="page-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </div>
+            <div class="page-register">
+                <div class="search">
+                    <input type="text" id="searchItem" placeholder="Search Product">
+                </div>
+                <div class="register-login">
+                    <button type="button">Sign Up</button>
+                    <button type="button">Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="box-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div  class="carousel-inner">
+              <div class="carousel-item item active">
+                <img src="image/clothe1.webp"  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/clothes2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/clothes3.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <main>
+        <div id="root" class="main-container">
+            <div class="box-detail">
+                <div class="thumbnail">
+                    <img src="image/clothes5.webp" alt="">
+                </div>
+                <div class="product-detail">
+                    <div class="item-detail">
+                        <h1>Men Blend Grey T-Shirt</h1>
+                    <h1>Price 50 $</h1>
+                    <p>Rate 3.5</p>
+                    </div>
+                    <div class="item-buy">
+                        <button class="btn btn-warning" type="button">Buy now !</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="image/logo.png" alt="">
+        </div>
+        <div class="footer-address">
+            <div class="location">
+                <h1>Location</h1>
+            </div>
+            <div class="address">
+                <a target="_blank" href="https://goo.gl/maps/fiBDVez2NDMADGoe8">
+                    <p>ETEC Center IT Professional Training Center, Phnom Penh, Cambodia</p>
+                </a>
+            </div>
+        </div>
+        <div class="footer-social">
+            <div class="socail">
+                <h1>Social Media</h1>
+            </div>
+            <div class="contact-social">
+                <ul>
+                    <li>
+                        <a target="_blank" href="">
+                        <img src="image/facebook.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="">
+                        <img src="image/instagram.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="">
+                        <img src="image/tik-tok.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
